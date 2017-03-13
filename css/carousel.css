@@ -1,0 +1,23 @@
+/*************JS Slider Overview page Start********************/
+/* SLIDER ---------------------------------- */
+.clear {clear: both;}
+#Sliderwrapper {width:526px; height:111px; padding:0;}
+#Sliderwrapper a {text-decoration: none;}
+#slider1 { padding: 0; list-style: none; overflow: hidden; height: 111px;}
+
+
+/*next button*/
+.bx-next { position:absolute; top:0px; left:97px; z-index:999; width: 9px; height: 12px; text-indent: -999999px; background: url(images/red_next.png) no-repeat 0 -12px;}
+/*previous button*/
+.bx-prev { position:absolute; top:0px; left:5px; z-index:999; width: 9px; height: 12px; text-indent: -999999px; background: url(images/red_prev.png) no-repeat 0 -12px;}
+/*pager links*/
+.bx-pager a { margin-right: 3px; color: #000; padding: 14px 5px 3px 5px; font-size: 12px; zoom:1; background: url(images/red_pager.png) no-repeat 0 -30px;}
+/*pager links hover and active states*/
+.bx-pager .pager-active,
+.bx-pager a:hover { background-position: 0 0; color:#fff; font-weight:bold;}
+/*pager wrapper*/
+.bx-pager { text-align:left; padding:0px 0px 0px 16px; font-size:12px; color:#fff; position:relative; top:-18px; #top:-30px;}
+/*captions*/
+
+.bx-auto a { color: #fff; font-size: 12px;}
+/* SLIDER Ends ---------------------------------- */

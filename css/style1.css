@@ -1,0 +1,236 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(../images/bg2.gif);
+	background-repeat: repeat;
+}
+#acv{ background-image:url(../images/bhhh.png);z-index:99999; height:1301px; width:720px;background-repeat:no-repeat;margin:0 auto;}
+/* css for the flip effect taken from "http://css3.bradshawenterprises.com/flip/" thanks for this help */
+#f1_container {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+#f1_container {
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  -o-perspective: 1000px;
+  perspective: 1000px;
+}
+#f1_card {
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: all 0.6s linear;
+  -moz-transform-style: preserve-3d;
+  -moz-transition: all 0.6s linear;
+  -o-transform-style: preserve-3d;
+  -o-transition: all 0.6s linear;
+  transform-style: preserve-3d;
+  transition: all 0.6s linear;
+}
+#f1_container:hover #f1_card, #f1_container.hover_effect #f1_card {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.face.back {
+  display: block;
+  -webkit-transform: rotateY(180deg);
+  -webkit-box-sizing: border-box;
+  -moz-transform: rotateY(180deg);
+  -moz-box-sizing: border-box;
+  -o-transform: rotateY(180deg);
+  -o-box-sizing: border-box;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  color: black;
+  text-align: center;
+  background-color: #FFFF33;
+}
+/* css for x axis rotation */
+#f1_container1 {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+#f1_container1 {
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  -o-perspective: 1000px;
+  perspective: 1000px;
+}
+#f1_card1 {
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: all 1.0s linear;
+  -moz-transform-style: preserve-3d;
+  -moz-transition: all 1.0s linear;
+  -o-transform-style: preserve-3d;
+  -o-transition: all 1.0s linear;
+  transform-style: preserve-3d;
+  transition: all 1.0s linear;
+}
+#f1_container1:hover #f1_card1, #f1_container1.hover_effect #f1_card1 {
+  -webkit-transform: rotateX(180deg);
+  -moz-transform: rotateX(180deg);
+  -o-transform: rotateX(180deg);
+  transform: rotateX(180deg);
+}
+.face1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.face1.back1 {
+  display: block;
+  -webkit-transform: rotateX(180deg);
+  -webkit-box-sizing: border-box;
+  -moz-transform: rotateX(180deg);
+  -moz-box-sizing: border-box;
+  -o-transform: rotateX(180deg);
+  -o-box-sizing: border-box;
+  transform: rotateX(180deg);
+  box-sizing: border-box;
+  color: black;
+  text-align: center;
+  background-color: #FFFF33;
+}
+
+/* css for x axis rotation ends here*/
+/* css for the flip effect ends here */
+#main_frame {
+    margin:0 auto;
+	background-color: #FFFF33;
+	padding: 24px 20px 24px 20px; /* top right bottom left */
+	height: 1253px;
+	width: 680px;
+}
+#sec_frame {
+     -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+	background-color: #000000;
+	height: 1253px;
+	width: 680px;
+	
+}
+#logo {
+     -moz-border-radius: 20px;
+    -webkit-border-radius: 20px 20px 0px 0px;
+    -khtml-border-radius: 20px 20px 0px 0px;
+	border-radius: 20px 20px 0px 0px;
+	height: 111px;
+	width: 680px;
+	background-image:url(../images/logo.png);
+	color:#FFFFFF;
+	text-align:right;
+	font-size:36px;
+}
+
+#mid_part {
+	height: 938px;
+	width: 680px;
+}
+#nav_but {
+	-webkit-border-radius: 0px 0px 20px 20px;
+    -khtml-border-radius: 0px 0px 20px 20px;
+	border-radius: 0px 0px 20px 20px;
+	height: 204px;
+	width: 680px;
+}
+#screen {
+    margin:0 auto;
+	background-color: #333300;
+	height: 938px;
+	width: 548px;
+}
+.mid_box {
+	background-color: #FFFF33;
+	margin-left:10px;
+	height: 257px;
+	width: 257px;
+	float:left;
+}
+.small_box {
+	//background-color: #FFFF33;
+	height: 122px;
+	width: 122px;
+	float:left;
+	margin-left:14px;
+}
+.down_box{
+     margin-top: 14px;
+	 }
+.side_box{
+     margin-left: 14px;
+	 }
+
+.big_box {
+	background-color: #FFFF33;
+	margin: 11px;
+	height: 111px;
+	width: 526px;
+	float:left;
+	color:black;
+	text-align:center;
+}
+.image_holder {
+	float: left;
+	height: 128px;
+	width: 128px;
+	background-color:#0000FF;
+}
+#navigation {
+    margin:0 auto;
+    padding-top::30px;
+	height: 174px;
+	width: 548px;
+}
+#back{
+    height:70px;
+	width:70px;
+	float:left;
+	background-image:url(../images/back_arrow.png);
+}
+#home {
+	float: left;
+	height: 70px;
+	width: 70px;
+	margin-left: 169px;
+	background-image:url(../images/window_icon.png);
+}
+#search {
+	float: left;
+	height: 70px;
+	width: 70px;
+	margin-left: 169px;
+	background-image:url(../images/search_bar.png);
+}
+.gallery_head{
+    font:Arial, Helvetica, sans-serif;
+	font-size:36px;
+}
+
